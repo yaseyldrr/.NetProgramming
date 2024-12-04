@@ -111,20 +111,6 @@ namespace _03_MakingDecision
             //    Console.WriteLine("Welcome!");
             //}
 
-            // Part 6
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             #endregion
 
@@ -343,17 +329,6 @@ namespace _03_MakingDecision
             //        Console.WriteLine("Invalid Number");
             //        break ;
             //}
-
-
-
-
-
-
-
-
-
-
-
 
             #endregion
 
