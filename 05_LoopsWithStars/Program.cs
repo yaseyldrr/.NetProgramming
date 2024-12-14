@@ -140,25 +140,45 @@ namespace _05_LoopsWithStars
 
             #region Pyramid Shape
 
-            int n = 5;
-            for (int i = 1; i <= n; i++)
-            {
+            //int n = 5;
+            //for (int i = 1; i <= n; i++)
+            //{
 
-                for (int j = n - i; j > 0; j--) // Boşluklar
+            //    for (int j = n - i; j > 0; j--) // Boşluklar
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int k = 1; k <= 2*i - 1; k++) // Yıldızlar
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine(" ");
+            //}
+
+
+            #endregion
+
+            #region Inverted Pyramid Shape
+
+            int n = 5;
+            for (int i = n; i >= 1; i--)
+            {
+                // boşluklar
+                for (int j = n - i; j > 0; j--)
                 {
                     Console.Write(" ");
                 }
-                for (int k = 1; k <= 2*i - 1; k++) // Yıldızlar
+
+                // yıldızlar
+                for (int k = 1; k <= 2 * i - 1; k++)
                 {
                     Console.Write("*");
                 }
-                Console.WriteLine(" ");
+                Console.WriteLine();
             }
+            #endregion
 
-
-                #endregion
-
-                Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
