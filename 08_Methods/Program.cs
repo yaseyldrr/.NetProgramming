@@ -32,7 +32,7 @@ namespace _08_Methods
 
             #endregion
 
-            #region Void Methods with Parameters
+            #region Void Methods With Parameters
 
             //void WriteMethod(string customerName)
             //{
@@ -50,7 +50,7 @@ namespace _08_Methods
 
             #endregion
 
-            #region Void Methods with Int Parameter
+            #region Void Methods With Int Parameter
 
             //void Sum(int num1, int num2, int num3)
             //{
